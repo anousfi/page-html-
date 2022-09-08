@@ -1,0 +1,15 @@
+div navbar{
+    width:90%;
+    height:20px;
+    text-align :center;
+    background-color: chocolate;
+    margin-top: 10px;
+    text-emphasis-position: 20%;
+    text-decoration-color: indigo;
+    text-shadow: 2px;
+}
+div tab{
+    width :20%;
+    height:10px;
+    text-underline-position: above;
+}
