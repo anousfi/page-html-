@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page principale</title>
     <link rel ="stylesheet" href="styling.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous">
 </head>
 <body>
     <!--voici la partie header-->
@@ -21,7 +25,8 @@
         </nav>
 
       </header>
-    <!--voici la partie main-->
+      <div id="#div">
+        <!--voici la partie main-->
     <main class="theMain">
         Pour nous contacter veuillez laisser un message
     <input type="textarea" cols="25" rows="10" />
@@ -33,7 +38,8 @@
     Votre e-mail ici:
     <form>
         <input type="email"/>
-        <button type ="submit">soumettre</button>
+        <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btn-check-outlined">Soumettre</label><br>
     </form>
     </main>  <br>
 <!--voici la partie footer-->
@@ -42,5 +48,6 @@
     Première intro de la communauté du cube avant une première vidéo a venir bientôt.
     COPYRIGHT ©     Confidentialité Mentions légales
 </footer>
+      </div>
 </body>
 </html>
